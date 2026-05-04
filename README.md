@@ -1,0 +1,16 @@
+# Modstitch Toolkit (MTK)
+
+Modstitch Toolkit is a collection of minimal Gradle plugins to help with mod development.
+Each plugin is designed to be self-contained and solve a specific problem.
+
+Modstitch Tools primarily help with multi-loader mod development, but can be used in single-loader projects as well.
+
+## Tools
+
+- [modstitch-accessx](./modstitch-accessx/README.md): A Gradle plugin to help convert between various formats of access modifier files.
+- [modstitch-manifests](./modstitch-manifests/README.md): A Gradle plugin to help generate mod metadata files (e.g. `fabric.mod.json`, `META-INF/neoforge.mods.toml`).
+- [modstitch-nol](./modstitch-nol/README.md): A Gradle plugin to allow you to develop for *NeoForge on Loom* (NOL).
+- [modstitch-fapidep](./modstitch-fapidep/README.md): A Gradle plugin to depend on specific Fabric API modules, without applying Fabric Loom.
+- [modstitch-commonconf](./modstitch-commonconf/README.md): A Gradle plugin to apply type-safe configuration to either Fabric Loom or ModDevGradle, depending on which one is applied.
+- [modstitch-modrepos](./modstitch-modrepos/README.md): A Gradle plugin to provide shorthands for many modding-specific repositories.
+- [modstitch-propapply](./modstitch-propapply/README.md): A Gradle plugin to apply one of various modding Gradle plugins based on a project property.
