@@ -18,7 +18,7 @@ For this reason, it is the recommendation to use the lowest common denominator f
 
 ```kotlin
 plugins {
-    id("dev.isxander.mtk.accessx") version "1.0.0"
+    id("dev.isxander.mtk.accessx") version "0.1.0"
 }
 
 accessx {

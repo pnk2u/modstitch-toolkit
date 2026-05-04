@@ -6,7 +6,7 @@ A Gradle plugin to apply type-safe configuration to either Fabric Loom or ModDev
 
 ```kotlin
 plugins {
-    id("dev.isxander.mtk.commonconf") version "1.0.0"
+    id("dev.isxander.mtk.commonconf") version "0.1.0"
 }
 
 commonconf {

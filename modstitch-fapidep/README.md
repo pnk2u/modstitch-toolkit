@@ -1,4 +1,4 @@
-# `modstitch-fapidep`
+# MTK: `fapidep`
 
 A Gradle plugin to depend on specific Fabric API modules, without applying Fabric Loom.
 

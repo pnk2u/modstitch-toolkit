@@ -15,7 +15,7 @@ to configure the applied plugin in a type-safe way. This can then by used with t
 `build.gradle.kts`:
 ```kotlin
 plugins {
-    id("dev.isxander.mtk.propapply") version "1.0.0"
+    id("dev.isxander.mtk.propapply") version "0.1.0"
 }
 ```
 
